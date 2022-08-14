@@ -1,9 +1,19 @@
+import './App.scss';
+
 import React from 'react';
+import {Work, About, Header, Skills, Footer, Testimonials} from './container'
+import {Navbar} from "./components";
 
 const App = () => {
     return (
-        <div>
-            App
+        <div className="app">
+            <Navbar/>
+            <Header/>
+            <About/>
+            <Work/>
+            <Skills/>
+            <Testimonials/>
+            <Footer/>
         </div>
     );
 };
