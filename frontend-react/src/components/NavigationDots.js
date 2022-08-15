@@ -1,7 +1,7 @@
 import React from 'react';
 
 const NavigationDots = ({active}) => {
-    const navs = ['home', 'about', 'works', 'contact', 'testimonials', 'skills'];
+    const navs = ['home', 'about', 'works', 'skills', 'contact', 'testimonials'];
     return (
         <div className="app__navigation">
             {navs.map((item, index) => (
