@@ -7,8 +7,7 @@ import {images} from "../../constants";
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false)
-    const navs = ['home', 'about', 'works', 'skills' ,'contact', 'testimonials'];
-
+    const navs = ['home', 'about', 'works', 'skills', 'testimonials', 'contact'];
     return (
         <nav className="app__navbar">
             <div className="app__navbar-logo">
